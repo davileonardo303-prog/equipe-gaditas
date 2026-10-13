@@ -1,0 +1,6 @@
+{
+  "name": "Sistema Gaditas Team - Gestão Completa de Artes Marciais",
+  "description": "Sistema de gestão completo para academias e equipes de artes marciais: gestão esportiva, atletas, ranking automático, campeonatos, financeiro profissional, portal do mestre, carteirinha digital, chamadas e site institucional.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

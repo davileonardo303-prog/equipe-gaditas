@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-cinzel: 'Cinzel', serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+@media print {
+  header, aside, button, nav, .no-print {
+    display: none !important;
+  }
+  body, main {
+    background: white !important;
+    color: black !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  #certificado-impressao, #carteirinha-impressao {
+    box-shadow: none !important;
+    margin: auto !important;
+  }
+}
